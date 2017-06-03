@@ -1,0 +1,17 @@
+company:
+    resource: "@CompanyBundle/Resources/config/routing.yml"
+    prefix:   '/company'
+
+app:
+    resource: '@AppBundle/Resources/config/routing.yml'
+
+file:
+    resource: "@FileBundle/Resources/config/routing.yml"
+    prefix:   '/file'
+
+user:
+    resource: '@UserBundle/Resources/config/routing.yml'
+    prefix:   '/user'
+
+fos_user:
+    resource: '@FOSUserBundle/Resources/config/routing/all.xml'

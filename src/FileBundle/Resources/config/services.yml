@@ -1,0 +1,4 @@
+services:
+    file.manager:
+        class: Components\File\FileManager
+        arguments: ['@service_container']
